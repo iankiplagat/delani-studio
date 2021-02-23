@@ -13,6 +13,15 @@
 
 .background {
   background: url(../images/backgrounds/h_img.jpg);
+  height: 981px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.icon {
+  padding-top: 30px;
+  line-height: 80px;
 }
 
 .header {
