@@ -36,3 +36,14 @@
   bottom: 30px;
   position: absolute;
 }
+
+.about {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.s-background {
+  background: url(../images/backgrounds/s_image.jpg);
+  height: 485px;
+}
