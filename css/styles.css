@@ -6,11 +6,6 @@
   height: 100vh;
 }
 
-.container {
-  margin-left: 0;
-  margin-right: 0;
-}
-
 .background {
   background: url(../images/backgrounds/h_img.jpg);
   height: 981px;
@@ -53,6 +48,17 @@
   font-size: 20px;
 }
 
-#what we do {
+.row {
+  justify-content: center;
+  padding-top: 20px;
+}
+
+#what-we-do {
+  padding-top: 50px;
   text-align: center;
 }
+
+.portfolio {
+  padding-top: 50px;
+}
+
