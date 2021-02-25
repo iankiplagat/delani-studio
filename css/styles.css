@@ -108,6 +108,10 @@ input[type="submit"] {
   color: #fff padding-top;
 }
 
+.btn {
+  margin-top: 20px;
+}
+
 input[type="submit"]:hover {
   background-color: #45a049;
 }
