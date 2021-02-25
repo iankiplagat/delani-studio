@@ -91,7 +91,7 @@
 
 input[type="text"],
 select {
-  width: 50%;
+  width: 25%;
   margin: 8px 0;
   display: inline-block;
   border: 1px solid #ccc;
@@ -100,12 +100,17 @@ select {
 }
 
 #email {
-  width: 50%;
+  width: 20%;
+  margin-left: 5%;
 }
 
 input[type="submit"] {
   background-color: #4caf50;
   color: #fff padding-top;
+}
+
+.text-center {
+  padding-top: 20px;
 }
 
 .btn {
@@ -128,4 +133,5 @@ footer {
 
 .form-control {
   width: 50%;
+  background-color: transparent;
 }
