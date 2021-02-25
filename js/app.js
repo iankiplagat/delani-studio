@@ -1,4 +1,5 @@
 function feedback() {
+  event.preventDefault();
   var name = document.getElementById("name").value;
   console.log(name);
   if (name) {

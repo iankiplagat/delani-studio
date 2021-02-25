@@ -8,6 +8,7 @@
 
 .background {
   background: url(../images/backgrounds/h_img.jpg);
+  background-size: cover;
   height: 981px;
   display: flex;
   flex-direction: column;
@@ -91,8 +92,8 @@
 
 input[type="text"],
 select {
-  width: 25%;
-  margin: 8px 0;
+  width: 24%;
+  margin-right: 2%;
   display: inline-block;
   border: 1px solid #ccc;
   border-radius: 4px;
@@ -100,8 +101,7 @@ select {
 }
 
 #email {
-  width: 20%;
-  margin-left: 5%;
+  width: 24%;
 }
 
 input[type="submit"] {
@@ -126,12 +126,20 @@ input[type="submit"]:hover {
   background-position: center;
 }
 
-footer {
+.footer {
   padding-top: 30px;
-  justify-content: center;
+  text-align: center;
+}
+
+.f-links {
+  padding-inline: 10px;
 }
 
 .form-control {
   width: 50%;
   background-color: transparent;
+}
+
+#copyright {
+  padding-top: 15px;
 }
