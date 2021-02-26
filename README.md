@@ -1,6 +1,6 @@
 # Delani Studio
 
-#### {Brief description of application}, Feb 26, 2020.
+#### Portfolio site for Delani studio,an imaginary photo studio, Feb 26, 2020.
 
 #### By **Ian Kiplagat**
 
@@ -10,24 +10,59 @@
 
 ## Setup/Installation Requirements
 
-- This is a great place
-- to list setup instructions
-- in a simple
-- easy-to-understand
-- format
-  {Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? Do I need to install any dependencies? How should I set up my databases? Is there other code this app depends on?}
+- To have the project up and running you may need:
+- To clone or download this project from github https://github.com/kasparov-creat/delani-studio.git to a local computer.
+- Use a text editor like atom, notepad,visual studio code or any other to view the code.
+- use a web browser to open it in order to have a look and feel of the site.
+- You can as well follow this link....to view the published site.
+
+## BDD
+
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+
+<h2>Behaviour-Driven Development</h2>
+
+<table>
+  <tr>
+    <th>Input:</th>
+    <th>Input Example:</th>
+    <th>Output Example:</th>
+  </tr>
+  <tr>
+    <td>an empty name placeholder</td>
+    <td></td>
+    <td>Please fill out this field</td>
+  </tr>
+  <tr>
+    <td>an empty or invalid email</td>
+    <td>ian</td>
+    <td>Please fill out this field</td>
+  </tr>
 
 ## Known Bugs
 
-{Are there issues that have not yet been resolved that you want to let users know you know? Outline any issues that would impact use of your application. Share any workarounds that are in place. }
+No known bugs. The code runs smoothly but feel free to report any bugs in case you experience them as you go through it.
 
 ## Technologies Used
 
-{Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}
+- HTML
+- CSS
+- Bootstrap
+- Javascript
+- jQuery
+
+-I used CSS to create a hover effect on the portfolio section and also CSS animation on the mouse-click.
 
 ## Support and contact details
 
-{Let people know what to do if they run into any issues or have questions, ideas or concerns. Encourage them to contact you or make a contribution to the code.}
+Please feel free to contact me incase you run into any issues or have questions, ideas or concerns. You can contact me or make a contribution to the code. Please find my contact information listed below:
+
+- Email: ianjkiplagat@gmail.com
+- Telephone: +254742579020
 
 ### License
 
