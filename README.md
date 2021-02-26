@@ -23,25 +23,30 @@
 <head>
 </head>
 <body>
-
-<h2>Behaviour-Driven Development</h2>
-
 <table>
   <tr>
-    <th>Input:</th>
+    <th>Our program should handle:</th>
     <th>Input Example:</th>
     <th>Output Example:</th>
   </tr>
   <tr>
-    <td>an empty name placeholder</td>
+    <td>User does not enter name or emai</td>
     <td></td>
     <td>Please fill out this field</td>
   </tr>
   <tr>
-    <td>an empty or invalid email</td>
-    <td>ian</td>
-    <td>Please fill out this field</td>
+    <td>User enters invalid name and email in the form</td>
+    <td>email: 1fwsvf</td>
+    <td>Please include an @ in the email address</td>
   </tr>
+  <tr>
+    <td>User enters text in the message text area</td>
+    <td>Hello, please tell me more about your products</td>
+    <td>Ian, we have received your message. Thank you for contacting us. We will get back to you as soon as possible.</td>
+  </tr>
+</table>
+</body>
+</html>
 
 ## Known Bugs
 
@@ -55,11 +60,11 @@ No known bugs. The code runs smoothly but feel free to report any bugs in case y
 - Javascript
 - jQuery
 
--I used CSS to create a hover effect on the portfolio section and also CSS animation on the mouse-click.
+- I used CSS to create a hover effect on the portfolio section and also CSS animation on the mouse-click.
 
 ## Support and contact details
 
-Please feel free to contact me incase you run into any issues or have questions, ideas or concerns. You can contact me or make a contribution to the code. Please find my contact information listed below:
+Please feel free to contact me in case you run into any issues or have questions, ideas or concerns. You can contact me or make a contribution to the code. Please find my contact information listed below:
 
 - Email: ianjkiplagat@gmail.com
 - Telephone: +254742579020
