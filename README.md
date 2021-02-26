@@ -60,7 +60,7 @@ No known bugs. The code runs smoothly but feel free to report any bugs in case y
 - Javascript
 - jQuery
 
-- I used CSS to create a hover effect on the portfolio section and also CSS animation on the mouse-click.
+I used CSS to create a hover effect on the portfolio section and also CSS animation on the mouse-click.
 
 ## Support and contact details
 
