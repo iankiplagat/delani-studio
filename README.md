@@ -1,6 +1,6 @@
 # Delani Studio
 
-#### {Brief description of application}, {Date of current version}
+#### {Brief description of application}, Feb 26, 2020.
 
 #### By **Ian Kiplagat**
 
