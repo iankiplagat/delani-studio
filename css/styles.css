@@ -105,21 +105,12 @@ select {
   width: 24%;
 }
 
-input[type="submit"] {
-  background-color: #4caf50;
-  color: #fff padding-top;
-}
-
 .text-center {
   padding-top: 20px;
 }
 
 .btn {
   margin-top: 20px;
-}
-
-input[type="submit"]:hover {
-  background-color: #92a045;
 }
 
 .bg3 {
@@ -172,10 +163,6 @@ input[type="submit"]:hover {
   display: block;
 }
 
-.img-portfolio {
-  display: block;
-}
-
 .img-container {
   position: relative;
 }
@@ -200,4 +187,11 @@ input[type="submit"]:hover {
 /* change placeholder color for internet explorer */
 ::-ms-input-placeholder {
   color: #fff;
+}
+
+@media screen and (max-width: 600px) {
+  .img-container {
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
 }
