@@ -1,27 +1,15 @@
-$(document).ready(function () {
-  $("#hide-design").click(function () {
-    $("#hide-design").hide();
-    $("#show-design").show();
-  });
-  $("#show-design").click(function () {
-    $("#hide-design").show();
-    $("#show-design").hide();
-  });
-  $("#hide-development").click(function () {
-    $("#hide-development").hide();
-    $("#show-development").show();
-  });
-  $("#show-development").click(function () {
-    $("#hide-development").show();
-    $("#show-development").hide();
-  });
-  $("#hide-product").click(function () {
-    $("#hide-product").hide();
-    $("#show-product").show();
-  });
-  $("#show-product").click(function () {
-    $("#hide-product").show();
-    $("#show-product").hide();
-  });
-});
+let showToggle = ["#show-design", "#show-development", "#show-product"];
+let hideToggle = ["#hide-design", "#hide-development", "#hide-product"];
 
+for (let i = 0; i < hideToggle.length; i++) {
+  $(hideToggle[i]).click(function () {
+    $(hideToggle[i]).hide();
+    $(showToggle[i]).show();
+  });
+}
+for (let i = 0; i < showToggle.length; i++) {
+  $(showToggle[i]).click(function () {
+    $(hideToggle[i]).show();
+    $(showToggle[i]).hide();
+  });
+}
