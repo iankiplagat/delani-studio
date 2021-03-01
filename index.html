@@ -72,10 +72,10 @@
       <h2>WHAT WE DO</h2>
       <div class="row">
         <div class="col-md-4">
-          <h4>DESIGN</h4>
           <div id="hide-design">
             <img src="images/services_icons/design_icon.png" alt="" />
           </div>
+          <h4>DESIGN</h4>
           <div id="show-design">
             <p>
               Our design practice offers a full range of services including
@@ -90,11 +90,11 @@
           </div>
         </div>
         <div class="col-md-4">
-          <h4>DEVELOPMENT</h4>
           <div id="development">
             <div id="hide-development">
               <img src="images/services_icons/dev_icon.png" alt="" />
             </div>
+            <h4>DEVELOPMENT</h4>
             <div id="show-development">
               <p>
                 All engineers are fluent in the latest enterprise, mobile and
@@ -109,10 +109,10 @@
           </div>
         </div>
         <div class="col-md-4">
-          <h4>PRODUCT MANAGEMENT</h4>
           <div id="hide-product">
             <img src="images/services_icons/product_icon.png" alt="" />
           </div>
+          <h4>PRODUCT MANAGEMENT</h4>
           <div id="show-product">
             <p>
               Planning and development is iterative. Because we are constantly
@@ -131,86 +131,86 @@
       <div class="container">
         <h2>PORTFOLIO</h2>
         <div class="row" id="portfolio">
-          <div class="col-md-3 img-container" id="work1">
+          <div class="col-md-3 portfolio-img img-container" id="workOne">
             <img
               src="images/portfolio/work4.jpg"
               class="img-fluid img-portfolio"
               alt="work1"
             />
             <div class="overlay">
-              <p id="overlay" class="text-overlay">Black Studio</p>
+              <p id="workOneText" class="text-overlay">Black Studio</p>
             </div>
           </div>
-          <div class="col-md-3 img-container" id="work2">
+          <div class="col-md-3 portfolio-img img-container" id="workTwo">
             <img
               src="images/portfolio/work3.jpg"
               class="img-fluid img-portfolio"
               alt="work2"
             />
             <div class="overlay">
-              <p id="overlay" class="text-overlay">Ontario Security</p>
+              <p id="workTwoText" class="text-overlay">Ontario Security</p>
             </div>
           </div>
-          <div class="col-md-3 img-container" id="work3">
+          <div class="col-md-3 portfolio-img img-container" id="workThree">
             <img
               src="images/portfolio/work2.jpg"
               class="img-fluid img-portfolio"
               alt="work3"
             />
             <div class="overlay">
-              <p id="overlay" class="text-overlay">Pyramids</p>
+              <p id="workThreeText" class="text-overlay">Pyramids</p>
             </div>
           </div>
-          <div class="col-md-3 img-container" id="work4">
+          <div class="col-md-3 portfolio-img img-container" id="workFour">
             <img
               src="images/portfolio/work1.jpg"
               class="img-fluid img-portfolio"
               alt="work4"
             />
             <div class="overlay">
-              <p id="overlay" class="text-overlay">Jim Carrey</p>
+              <p id="workFourText" class="text-overlay">Jim Carrey</p>
             </div>
           </div>
         </div>
         <div class="row" id="portfolio">
-          <div class="col-md-3 img-container" id="work5">
+          <div class="col-md-3 portfolio-img img-container" id="workFive">
             <img
               src="images/portfolio/work5.jpg"
               class="img-fluid img-portfolio"
               alt="work1"
             />
             <div class="overlay">
-              <p id="overlay" class="text-overlay">Have A Good Day</p>
+              <p id="workFiveText" class="text-overlay">Have A Good Day</p>
             </div>
           </div>
-          <div class="col-md-3 img-container" id="work6">
+          <div class="col-md-3 portfolio-img img-container" id="workSix">
             <img
               src="images/portfolio/work6.jpg"
               class="img-fluid img-portfolio"
               alt="work2"
             />
             <div class="overlay">
-              <p id="overlay" class="text-overlay">Calculator</p>
+              <p id="workSixText" class="text-overlay">Calculator</p>
             </div>
           </div>
-          <div class="col-md-3 img-container" id="work7">
+          <div class="col-md-3 portfolio-img img-container" id="workSeven">
             <img
               src="images/portfolio/work7.jpg"
               class="img-fluid img-portfolio"
               alt="work3"
             />
             <div class="overlay">
-              <p id="overlay" class="text-overlay">Burned</p>
+              <p id="workSevenText" class="text-overlay">Burned</p>
             </div>
           </div>
-          <div class="col-md-3 img-container" id="work8">
+          <div class="col-md-3 portfolio-img img-container" id="workEight">
             <img
               src="images/portfolio/work8.jpg"
               class="img-fluid img-portfolio"
               alt="work4"
             />
             <div class="overlay">
-              <p id="overlay" class="text-overlay">Giraffe Restaurant</p>
+              <p id="workEightText" class="text-overlay">Giraffe Restaurant</p>
             </div>
           </div>
         </div>
@@ -219,10 +219,10 @@
     <div class="container-fluid contact">
       <div class="bg3">
         <div class="contact-overlay">
-          <h1 class="text-center text-white b-text">CONTACT US</h1>
+          <h2 class="text-center text-white b-text">CONTACT US</h2>
           <br />
           <div class="col-md-12 input">
-            <form action="">
+            <form name="contactForm">
               <div class="row">
                 <div class="col-md-2 form"></div>
                 <input
@@ -231,16 +231,16 @@
                   id="name"
                   name="name"
                   placeholder="Name..."
-                  required=""
+                  required
                 />
-                <!-- <br /><br /> -->
+                <br /><br />
                 <input
                   class="col-md-4 form-control email"
                   type="email"
                   id="email"
                   name="email"
                   placeholder="Email..."
-                  required=""
+                  required
                 />
                 <div class="col-md-2"></div>
               </div>
@@ -252,6 +252,7 @@
                   name="message"
                   id="message"
                   placeholder="Your message here..."
+                  required
                 ></textarea>
                 <div class="col-md-2"></div>
               </div>
@@ -304,21 +305,6 @@
       <img class="f-links" src="images/social_icons/flickr.png" alt="flickr" />
       <p id="copyright">DELANI STUDIO<br />2021</p>
     </footer>
-    <script
-      type="text/javascript"
-      src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js"
-      data-dojo-config="usePlainJson: true, isDebug: false"
-    ></script>
-    <script type="text/javascript">
-      window.dojoRequire(["mojo/signup-forms/Loader"], function (L) {
-        L.start({
-          baseUrl: "mc.us3.list-manage.com",
-          uuid: "e71bed4d6ae5a7c984dfe28b0",
-          lid: "dbf7e27685",
-          uniqueMethods: true,
-        });
-      });
-    </script>
     <script src="js/jquery.js"></script>
     <script src="js/app.js"></script>
   </body>
