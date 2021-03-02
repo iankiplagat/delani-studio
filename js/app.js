@@ -78,10 +78,6 @@ $("#workEight")
     $("#workEightText").hide();
   });
 
-// $("button").click(function (event) {
-
-// });
-
 $("button").on("submit", function (event) {
   var user = document.getElementById("name").value;
   alert(

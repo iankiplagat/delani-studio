@@ -69,6 +69,28 @@
   text-align: center;
 }
 
+#show-design {
+  display: none;
+  cursor: pointer;
+}
+#show-development {
+  display: none;
+  cursor: pointer;
+}
+#show-product {
+  display: none;
+  cursor: pointer;
+}
+#hide-design {
+  cursor: pointer;
+}
+#hide-development {
+  cursor: pointer;
+}
+#hide-product {
+  cursor: pointer;
+}
+
 .portfolio {
   padding-top: 50px;
   text-align: center;
