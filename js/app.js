@@ -35,7 +35,7 @@ $("#workThree")
     $("#workThreeText").show();
   })
   .mouseleave(function () {
-    $("#workFourText").hide();
+    $("#workThreeText").hide();
   });
 
 $("#workFour")

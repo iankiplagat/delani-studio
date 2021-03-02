@@ -170,7 +170,7 @@ select {
   font-size: 20px;
   font-weight: 800;
   position: absolute;
-  top: 45%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
@@ -182,36 +182,25 @@ select {
   cursor: pointer;
 }
 
-/* change placeholder color for chrome*/
-::-webkit-input-placeholder {
-  color: #fff;
-}
-
-/* change placeholder color for firefox */
-::-moz-input-placeholder {
-  color: #fff;
-}
-
-/* change placeholder color for internet explorer */
-::-ms-input-placeholder {
-  color: #fff;
-}
-
 @media screen and (max-width: 800px) {
   .img-container {
     flex-direction: column;
-    margin-bottom: 20px;
-    margin-right: 20px;
-  }
-}
-
-@media screen and (max-width: 350px) {
-  .header {
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-top: 30px;
   }
   #about {
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .header {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .s-media {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .contact {
+    padding-left: 20px;
+    padding-right: 20px;
   }
 }
