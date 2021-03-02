@@ -86,12 +86,11 @@ $("form#form").on("submit", function (event) {
   let message = $("textarea#message").val();
 
   if ($("input#name").val() && $("input#email").val()) {
-    alert(
-      "Hey " +
-        name +
-        ", Thanks for reaching out, we'll get back to you shortly...good luck!"
-    );
-  } else {
-    alert("Please provide your correct name and email!");
+    let alertMessage = `Hey ${name} , Thanks for reaching out, we'll get back to you shortly...good luck!`;
+    Swal.fire({
+      icon: "success",
+      title: "Cheers...",
+      text: alertMessage,
+    });
   }
 });
