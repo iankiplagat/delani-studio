@@ -2,7 +2,7 @@
 
 #### Portfolio site for Delani studio,an imaginary photo studio, Feb 26, 2020.
 
-#### By **Ian Kiplagat**
+#### By **[Ian Kiplagat](https://github.com/kasparov-creat)**
 
 ## Description
 
