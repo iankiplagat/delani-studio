@@ -201,5 +201,17 @@ select {
   .img-container {
     flex-direction: column;
     margin-bottom: 20px;
+    margin-right: 20px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .header {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  #about {
+    padding-left: 30px;
+    padding-right: 30px;
   }
 }
