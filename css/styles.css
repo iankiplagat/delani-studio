@@ -113,6 +113,12 @@
   }
 }
 
+.contact {
+  text-align: center;
+  color: #fff;
+  padding-top: 30px;
+}
+
 input[type="text"],
 select {
   width: 24%;
@@ -191,7 +197,7 @@ select {
   color: #fff;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   .img-container {
     flex-direction: column;
     margin-bottom: 20px;

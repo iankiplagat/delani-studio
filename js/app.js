@@ -78,15 +78,20 @@ $("#workEight")
     $("#workEightText").hide();
   });
 
-$("button").on("submit", function (event) {
-  var user = document.getElementById("name").value;
-  alert(
-    "Dear " +
-      user +
-      ", we have received your message. Thank you for reaching out to us."
-  );
-  $("form").each(function () {
-    this.reset();
-  });
+// Form Validation
+$("form#form").on("submit", function (event) {
   event.preventDefault();
+  let name = $("input#name").val();
+  let email = $("input#email").val();
+  let message = $("textarea#message").val();
+
+  if ($("input#name").val() && $("input#email").val()) {
+    alert(
+      "Hey " +
+        name +
+        ", Thanks for reaching out, we'll get back to you shortly...good luck!"
+    );
+  } else {
+    alert("Please provide your correct name and email!");
+  }
 });
